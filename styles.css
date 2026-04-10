@@ -346,7 +346,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
-    align-items: stretch; 
+    align-items: stretch;
 }
 
 .projects-card {
@@ -370,8 +370,8 @@ section {
 
 .projects-img img {
     width: 100%;
-    height: 200px; 
-    object-fit: cover; 
+    height: 200px;
+    object-fit: cover;
     transition: var(--transition);
 }
 
@@ -389,14 +389,14 @@ section {
 .project-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
-    min-height: 3rem; 
+    min-height: 3rem;
 }
 
 .project-info p {
     color: var(--gray-text);
     margin-bottom: 1rem;
     font-size: 0.95rem;
-    flex-grow: 1; 
+    flex-grow: 1;
     text-align: justify;
 }
 
@@ -423,7 +423,7 @@ section {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 .project-links a {
@@ -593,5 +593,9 @@ footer {
     .nav-links {
         flex-direction: column;
         text-align: center;
+    }
+
+    #typing {
+        white-space: normal;
     }
 }
