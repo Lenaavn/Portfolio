@@ -589,8 +589,8 @@ footer {
 
 @media (max-width: 480px) {
 
-    body {
-        padding-top: 7rem; 
+    .hero {
+        padding-top: 2rem; 
     }
 
     body.menu-open {
