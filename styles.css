@@ -590,7 +590,7 @@ footer {
 @media (max-width: 480px) {
 
     body {
-        padding-top: 5rem; 
+        padding-top: 6rem; 
     }
 
     body.menu-open {
